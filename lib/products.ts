@@ -4,7 +4,7 @@
  * Replace this file with API/database data in the backend slice.
  */
 
-export type SizeLabel = "250g" | "500g" | "1kg";
+export type SizeLabel = "Small" | "Medium" | "Large";
 export type Roast = "Light" | "Medium" | "Dark";
 
 export interface Variant {
@@ -32,7 +32,7 @@ export interface Product {
   variants: Variant[];
 }
 
-export const SIZES: SizeLabel[] = ["250g", "500g", "1kg"];
+export const SIZES: SizeLabel[] = ["Small", "Medium", "Large"];
 
 export const categories: Category[] = [
   { slug: "espresso", name: "Espresso", description: "Short, intense coffees built on a shot of espresso." },
@@ -41,9 +41,9 @@ export const categories: Category[] = [
 ];
 
 const v = (p250: number, s250: number, p500: number, s500: number, p1k: number, s1k: number): Variant[] => [
-  { size: "250g", pricePKR: p250, stock: s250 },
-  { size: "500g", pricePKR: p500, stock: s500 },
-  { size: "1kg", pricePKR: p1k, stock: s1k },
+  { size: "Small", pricePKR: p250, stock: s250 },
+  { size: "Medium", pricePKR: p500, stock: s500 },
+  { size: "Large", pricePKR: p1k, stock: s1k },
 ];
 
 export const products: Product[] = [

@@ -2,8 +2,6 @@ import Link from "next/link";
 import { Emblem } from "./Emblem";
 import { ActiveLink } from "./ActiveLink";
 
-const PAYMENTS = ["Cash on Delivery", "Bank Transfer", "JazzCash", "Easypaisa", "Card"];
-
 export function Footer() {
   return (
     <footer className="site-footer">
@@ -47,11 +45,6 @@ export function Footer() {
       </div>
 
       <div className="container footer-bottom">
-        <ul className="payment-list" aria-label="Planned payment methods">
-          {PAYMENTS.map((p) => (
-            <li key={p} className="payment-chip">{p}</li>
-          ))}
-        </ul>
         <p className="small">© {new Date().getFullYear()} Coffee Craft. All rights reserved.</p>
       </div>
     </footer>

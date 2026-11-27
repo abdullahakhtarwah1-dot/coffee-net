@@ -50,7 +50,7 @@ export default async function ProductPage({ params }: { params: Params }) {
             <div><dt>Roast</dt><dd>{product.roast ?? "—"}</dd></div>
             <div><dt>Category</dt><dd>{category?.name}</dd></div>
             <div><dt>Tasting notes</dt><dd>{product.notes.join(", ")}</dd></div>
-            <div><dt>Sizes</dt><dd>250g · 500g · 1kg</dd></div>
+            <div><dt>Sizes</dt><dd>Small · Medium · Large</dd></div>
           </dl>
         </div>
       </section>

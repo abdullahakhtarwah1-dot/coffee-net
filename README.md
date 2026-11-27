@@ -14,7 +14,7 @@ npm run typecheck
 ## Included in this slice
 - Home (split hero, featured products, categories, about teaser)
 - Shop with search, category, roast, max-price and stock filters, plus pagination
-- Product page with 250g / 500g / 1kg sizes, quantity, add to cart, related products
+- Product page with Small / Medium / Large sizes, quantity, add to cart, related products
 - Cart drawer + full cart page (saved in browser localStorage)
 - About, Contact (validated form, delivery not wired up yet), My Account placeholder, policy placeholders
 - Footer with dark background and gold accents, no newsletter or social sections

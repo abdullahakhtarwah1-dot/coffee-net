@@ -14,7 +14,7 @@ const SECTIONS: Section[] = [
     ),
     body: (
       <p>
-        You can request a return within <strong>7 days of delivery</strong>, provided the product is unused,
+        You can request a return, provided the product is unused,
         unopened, and in its original packaging.
       </p>
     ),

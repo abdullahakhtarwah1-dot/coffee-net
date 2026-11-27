@@ -43,7 +43,10 @@ export default function HomePage() {
                   Explore Menu <span aria-hidden="true">→</span>
                 </Link>
                 <Link href="/about" className="btn btn-outline-light">
-                  <span className="play-dot" aria-hidden="true">▶</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M12 6.5C10.3 5.2 7.8 4.5 4 4.5v13c3.8 0 6.3.7 8 2 1.7-1.3 4.2-2 8-2v-13c-3.8 0-6.3.7-8 2z" />
+                    <path d="M12 6.5v13" />
+                  </svg>
                   Our Story
                 </Link>
               </div>
@@ -108,7 +111,7 @@ export default function HomePage() {
           </div>
           <ul className="pillars">
             <li><strong>Fresh roasts</strong><span>Small batches, roasted to order.</span></li>
-            <li><strong>Three sizes</strong><span>250g, 500g or 1kg for every coffee.</span></li>
+            <li><strong>Three sizes</strong><span>Small, Medium or Large for every coffee.</span></li>
             <li><strong>Priced in PKR</strong><span>Clear rupee pricing, no conversions.</span></li>
           </ul>
         </div>
